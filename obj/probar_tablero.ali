@@ -1,0 +1,89 @@
+V "GNAT Lib v2013"
+M P W=b
+A -g
+A -g
+A -gnato
+A -gnatwa
+A -gnatQ
+A -gnat05
+A -gnatA
+P ZX
+
+RN
+RV NO_ENUMERATION_MAPS
+RV NO_IO
+RV NO_DEFAULT_INITIALIZATION
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK
+
+U probar_tablero%b	probar_tablero.adb	c909e8ea NE OO SU
+W ada%s			ada.ads			ada.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W sudokus%s		sudokus.adb		sudokus.ali
+W system.concat_2%s	s-conca2.adb		s-conca2.ali
+W system.img_bool%s	s-imgboo.adb		s-imgboo.ali
+W tablero%s		tablero.adb		tablero.ali
+
+D ada.ads		20130417131022 3ffc8e18
+D a-except.ads		20130417131018 10fcae55
+D a-finali.ads		20130417131020 52ecdc1b
+D a-ioexce.ads		20130417131020 8b9de6cd
+D a-stream.ads		20130417131020 2ca4ee37
+D a-tags.ads		20130417131022 6c0509d0
+D a-textio.ads		20130417131022 386df5d4
+D a-unccon.ads		20130417131022 f9eb8f06
+D casillas.ads		20170208174132 8d6d39c1
+D ids_grupo_casillas.ads  20170207165002 8f5d0139
+D indices.ads		20170329140056 d42b7d02
+D interfac.ads		20130417131026 cb4a8015
+D i-cstrea.ads		20130417131026 8128536b
+D matrices_casillas.ads	20170209164452 164de051
+D niveles_dificultad.ads  20170208143306 b1764c84
+D numeros.ads		20170207161626 a4214673
+D probar_tablero.adb	20170327171106 9ba58a2b
+D sudokus.ads		20170329140446 58c8dcb0
+D system.ads		20130417131036 5fc8ae56
+D s-conca2.ads		20130417131028 fbd0f2fc
+D s-crtl.ads		20130417131028 dfcfca61
+D s-exctab.ads		20130417131028 66e51330
+D s-ficobl.ads		20130417131028 55a71d43
+D s-finmas.ads		20130417131028 b95bb341
+D s-finroo.ads		20130417131028 4ff27390
+D s-imgboo.ads		20130417131030 f5d971eb
+D s-parame.ads		20130417131032 b6e20cc0
+D s-pooglo.ads		20130417131032 542f33d0
+D s-soflin.ads		20130417131032 24c8153c
+D s-stache.ads		20130417131032 596fc1b4
+D s-stalib.ads		20130417131032 f78bcf95
+D s-stoele.ads		20130417131032 facd7d98
+D s-stoele.adb		20130417131032 afc5dc80
+D s-stopoo.ads		20130417131032 7b8fbeee
+D s-traent.ads		20130417131032 5221ee41
+D s-unstyp.ads		20130417131034 6ae15c76
+D s-wchcon.ads		20130417131034 bfeb2e3d
+D tablero.ads		20170329140154 32094ba5
+X 1 ada.ads
+16K9*Ada 19e8 17|2r6 4r15 8r4 8r32 10r4 13r4 14r4 15r4 16r4 17r4 19r4 22r4
+X 7 a-textio.ads
+49K13*Text_IO 471e16 17|2w10 4r19 8r8 8r36 10r8 13r8 14r8 15r8 16r8 17r8
+. 19r8 22r8
+52P9*File_Type(369R9) 17|4r27
+53n23*In_File{53E9} 17|8r44
+92U14*Open 17|8s16
+98U14*Close 17|10s16
+169U14*Skip_Line 17|17s16
+263U14*Put_Line 17|13s16 14s16 15s16 16s16 19s16 22s16
+X 17 probar_tablero.adb
+3U11*Probar_Tablero 3b11 29l5 29t19
+4p4 F_Prueba{7|52P9} 8m22 8r22 9m18 9r18 10m23 10r23
+5r4 S{18|7R9} 9m28 12r27
+6b4 Fin_Correcto{boolean} 18m33 20r41
+X 18 sudokus.ads
+5K9*Sudokus 17|1w6 5r8 9r4 18|31e12
+7R9*Sudoku 17|5r16 18|30e14
+9U14*Leer 17|9s12
+X 38 tablero.ads
+2K9*Tablero 17|1w15 12r4 18r4 38|34e12
+4U14*Cargar_Sudoku 17|12s12
+7U14*Jugar 17|18s12
+
